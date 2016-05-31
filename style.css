@@ -1,0 +1,15 @@
+/* style.css */
+.ccm-Comment_section_von_Rudolf > .comments {
+  display: table;
+  padding: 0.5em;
+}
+.ccm-Comment_section_von_Rudolf > .comments > div {
+  display: table-row;
+}
+.ccm-Comment_section_von_Rudolf > .comments > div > div {
+  display: table-cell;
+}
+.ccm-Comment_section_von_Rudolf > .comments > .comment > .name:after {
+  content: ':';
+  padding-right: 0.5em;
+}
