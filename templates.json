@@ -17,6 +17,15 @@
         "tag": "div",
         "class": "text",
         "inner": "%text%"
+      },
+      {
+        "tag": "div",
+        "class": "date",
+        "inner": "%date%"
+      },
+      {
+        "tag": "div",
+        "class": "rating"
       }
     ]
   },
@@ -48,6 +57,62 @@
             }
           ],
           "onsubmit": "%onsubmit%"
+        }
+      }
+    ]
+  },
+ "showmore": {
+    "tag": "div",
+    "class": "show",
+    "inner": [
+      {
+        "tag": "div",
+        "class": "name"
+      },
+      {
+        "tag": "div",
+        "class": "text",
+        "inner": {
+          "tag": "form",
+          	"inner":[ 
+			{
+              "tag": "input",
+              "class": "button",
+				"id": "buttonmore",			
+              "type": "submit",
+              "value": "show more comments"
+            }
+            ],
+          "onsubmit": "%onsubmit%"
+          
+        }
+      }
+    ]
+  },
+"showless": {
+    "tag": "div",
+    "class": "show",
+    "inner": [
+      {
+        "tag": "div",
+        "class": "name"
+      },
+      {
+        "tag": "div",
+        "class": "text",
+        "inner": {
+          "tag": "form",
+          	"inner":[ 
+			{
+              "tag": "input",
+              "class": "button",
+				"id": "buttonmore",			
+              "type": "submit",
+              "value": "show less comments"
+            }
+            ],
+          "onsubmit": "%onsubmit%"
+          
         }
       }
     ]
